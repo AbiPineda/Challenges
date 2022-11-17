@@ -52,10 +52,16 @@ body {
   margin-right: 5%;
   margin-left: 5%;
 }
-
+.title{
+  color: var(--DarkBlue);
+  font-weight: 700;
+}
 .description {
   text-align: center;
   margin-top: 0px;
+  color: var(--DesaturatedBlue);
+  font-weight: 500;
+  font-size: 14px;
 }
 .details {
   display: flex;
@@ -91,25 +97,53 @@ body {
 
 .anual-plan {
   margin: 0;
+  color: var(--DarkBlue);
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .details-price {
   margin: 0;
+  color: var(--DesaturatedBlue);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.link-change{
+  color: var(--BrightBlue);
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 6%;
-  margin-bottom: 6%;
-  gap: 5px;
+  display: block;
+  width: 90%;
+}
+.proceed{
+  width: 100%;
+  margin: 2em 0 1em 0;
+  padding: 1em 0;
+  background-color: var(--BrightBlue);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
 }
 
+.cancel{
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 1em 0;
+  color: var(--DesaturatedBlue);
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+}
 @media (max-width:375px) {
   .details {
     width: auto;
     margin: 1rem;
+
   }
 }
