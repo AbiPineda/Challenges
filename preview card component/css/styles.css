@@ -1,0 +1,114 @@
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --VeryDarkBlue: hsl(217, 54%, 11%);
+  --VeryDarkBlue2: hsl(216, 50%, 16%);
+  --VeryDarkBlue3: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--VeryDarkBlue2);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 300px;
+  height: auto;
+  background-color: var(--VeryDarkBlue3);
+  border-radius: 15px;
+}
+
+.img-card {
+  width: auto;
+  height: auto;
+  padding: 5% 5% 0;
+}
+
+.image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.text {
+  height: auto;
+  padding: 0 5% 0 5%;
+}
+
+.title {
+  color: var(--White);
+  font-weight: 400;
+}
+
+.description {
+  color: var(--SoftBlue);
+  font-weight: 300;
+}
+.others {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eth {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+.icon-eth {
+  width: 15px;
+}
+.eth-title {
+  color: var(--Cyan);
+  font-weight: 400;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.days-img {
+  width: 15px;
+}
+
+.days-title {
+  color: var(--SoftBlue);
+  font-weight: 300;
+}
+
+hr {
+  color: var(--SoftBlue);
+}
+.creator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 5%;
+}
+.profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 3px solid var(--SoftBlue);
+}
+
+.name-creation {
+  color: var(--SoftBlue);
+  font-weight: 300;
+}
+.name {
+  color: var(--SoftBlue);
+  font-weight: 400;
+}
